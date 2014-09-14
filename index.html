@@ -56,7 +56,7 @@
         <li><a href="#team">Team</a></li>
       </ul>
 
-      <div class="navbar-form navbar-right navbar-buy"><a href="http://tickets.barcelonajs.org" class="btn btn-default btn-sm" >Buy your ticket &nbsp; <i class="fa fa-ticket"></i></a></div>
+      <div class="navbar-form navbar-right navbar-buy"><a href="http://tickets.barcelonajs.org" class="btn btn-default btn-sm" data-buyticket="navbar.hbs">Buy your ticket &nbsp; <i class="fa fa-ticket"></i></a></div>
 
     </div><!--/.navbar-collapse -->
   </div>
@@ -81,7 +81,7 @@
           <br />
           <span class="where">Mobile World Centre, C/ de Fontanella, 2, Barcelona</span>
           <div class="row">
-            <h3 class="text-center"><a class="btn btn-default btn-lg" href="http://tickets.barcelonajs.org">Buy your ticket &nbsp; <i class="fa fa-ticket"></i></a></h3>
+            <h3 class="text-center"><a class="btn btn-default btn-lg" href="http://tickets.barcelonajs.org" data-buyticket="intro.hbs">Buy your ticket &nbsp; <i class="fa fa-ticket"></i></a></h3>
             <p class="text-right intro-social"><i class="fa fa-twitter"></i> @bcnjs / #wenode</p>
           </div>
         </div>
@@ -203,42 +203,42 @@
       <div class="supporters-small">
   
     
-      <a href="http://www.netcentric.biz?utm_source=wenode&utm_medium=sponsor&utm_campaign=barcelonajs" target="_blank">
-        <img class="" src="/assets/images/logo-sponsor-netcentric.jpg" alt=Netcentric Ibérica SLU />
+      <a href="http://www.netcentric.biz?utm_source=wenode&utm_medium=sponsor&utm_campaign=barcelonajs" target="_blank" data-sponsor="Netcentric Ibérica SLU">
+        <img class="" src="/assets/images/logo-sponsor-netcentric.jpg" alt="Netcentric Ibérica SLU" />
       </a>
     
   
   
-  <a href="http://mobileworldcapital.com?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank">
-    <img class="" src="/assets/images/logo-sponsor-mwc2x.png" alt=Mobile World Capital />
+  <a href="http://mobileworldcapital.com?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank" data-supporter="Mobile World Capital">
+    <img class="" src="/assets/images/logo-sponsor-mwc2x.png" alt="Mobile World Capital" />
   </a>
   
-  <a href="http://www.jobfluent.com?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank">
-    <img class="" src="/assets/images/logo-sponsor-jobfluent.jpg" alt=JobFluent />
+  <a href="http://www.jobfluent.com?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank" data-supporter="JobFluent">
+    <img class="" src="/assets/images/logo-sponsor-jobfluent.jpg" alt="JobFluent" />
   </a>
   
-  <a href="http://www.risingstack.com?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank">
-    <img class="" src="/assets/images/logo-sponsor-risingstack.jpg" alt=Rising Stack />
+  <a href="http://www.risingstack.com?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank" data-supporter="Rising Stack">
+    <img class="" src="/assets/images/logo-sponsor-risingstack.jpg" alt="Rising Stack" />
   </a>
   
-  <a href="http://velocityconf.com/velocityeu2014?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank">
-    <img class="" src="/assets/images/logo-sponsor-velocity.png" alt=Velocity Conference />
+  <a href="http://velocityconf.com/velocityeu2014?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank" data-supporter="Velocity Conference">
+    <img class="" src="/assets/images/logo-sponsor-velocity.png" alt="Velocity Conference" />
   </a>
   
-  <a href="http://www.mongodb.com?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank">
-    <img class="" src="/assets/images/logo-sponsor-mongodb.png" alt=MongoDB />
+  <a href="http://www.mongodb.com?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank" data-supporter="MongoDB">
+    <img class="" src="/assets/images/logo-sponsor-mongodb.png" alt="MongoDB" />
   </a>
   
-  <a href="http://mediasmart.mobi?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank">
-    <img class="" src="/assets/images/logo-sponsor-mediasmart.jpg" alt=mediasmart />
+  <a href="http://mediasmart.mobi?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank" data-supporter="mediasmart">
+    <img class="" src="/assets/images/logo-sponsor-mediasmart.jpg" alt="mediasmart" />
   </a>
   
-  <a href="https://www.arangodb.org?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank">
-    <img class="" src="/assets/images/logo-sponsor-arangodb.png" alt=mediasmart />
+  <a href="https://www.arangodb.org?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank" data-supporter="mediasmart">
+    <img class="" src="/assets/images/logo-sponsor-arangodb.png" alt="mediasmart" />
   </a>
   
-  <a href="http://www.barcinno.com?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank">
-    <img class="" src="/assets/images/logo-sponsor-barcinno.jpg" alt=barcinno />
+  <a href="http://www.barcinno.com?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank" data-supporter="barcinno">
+    <img class="" src="/assets/images/logo-sponsor-barcinno.jpg" alt="barcinno" />
   </a>
   
 </div>
@@ -500,7 +500,7 @@
 <section class="spacer">
 	<div class="container">
 		<div class="row">
-		  <h3 class="text-center register"><a class="btn btn-default btn-lg" href="http://tickets.barcelonajs.org">Buy your ticket &nbsp; <i class="fa fa-ticket"></i></a></h3>
+		  <h3 class="text-center register"><a class="btn btn-default btn-lg" href="http://tickets.barcelonajs.org" data-buyticket="buyticket.hbs">Buy your ticket &nbsp; <i class="fa fa-ticket"></i></a></h3>
 		  <p class="text-right"><i class="fa fa-twitter"></i> @bcnjs / #wenode &nbsp;</p>
 		</div>
 	</div>
@@ -849,7 +849,7 @@
 <section class="spacer">
 	<div class="container">
 		<div class="row">
-		  <h3 class="text-center register"><a class="btn btn-default btn-lg" href="http://tickets.barcelonajs.org">Buy your ticket &nbsp; <i class="fa fa-ticket"></i></a></h3>
+		  <h3 class="text-center register"><a class="btn btn-default btn-lg" href="http://tickets.barcelonajs.org" data-buyticket="buyticket.hbs">Buy your ticket &nbsp; <i class="fa fa-ticket"></i></a></h3>
 		  <p class="text-right"><i class="fa fa-twitter"></i> @bcnjs / #wenode &nbsp;</p>
 		</div>
 	</div>
@@ -872,8 +872,8 @@
       <div class="row">
         
           <div class="sponsor sponsor-logo col-xs-12 col-sm-4 text-center">
-            <a href="http://www.netcentric.biz?utm_source=wenode&utm_medium=sponsor&utm_campaign=barcelonajs" target="_blank">
-              <img src="/assets/images/logo-sponsor-netcentric.jpg" alt=Netcentric Ibérica SLU />
+            <a href="http://www.netcentric.biz?utm_source=wenode&utm_medium=sponsor&utm_campaign=barcelonajs" target="_blank" data-sponsor="Netcentric Ibérica SLU">
+              <img src="/assets/images/logo-sponsor-netcentric.jpg" alt="Netcentric Ibérica SLU" />
             </a>
           </div>
         
@@ -902,50 +902,50 @@
     <div class="row">
       
       <div class="supporter supporter-logo col-xs-12 col-sm-4 text-center">
-        <a href="http://mobileworldcapital.com?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank">
-          <img src="/assets/images/logo-sponsor-mwc2x.png" alt=Mobile World Capital />
+        <a href="http://mobileworldcapital.com?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank"  data-supporter="Mobile World Capital">
+          <img src="/assets/images/logo-sponsor-mwc2x.png" alt="Mobile World Capital" />
         </a>
       </div>
       
       <div class="supporter supporter-logo col-xs-12 col-sm-4 text-center">
-        <a href="http://www.jobfluent.com?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank">
-          <img src="/assets/images/logo-sponsor-jobfluent.jpg" alt=JobFluent />
+        <a href="http://www.jobfluent.com?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank"  data-supporter="JobFluent">
+          <img src="/assets/images/logo-sponsor-jobfluent.jpg" alt="JobFluent" />
         </a>
       </div>
       
       <div class="supporter supporter-logo col-xs-12 col-sm-4 text-center">
-        <a href="http://www.risingstack.com?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank">
-          <img src="/assets/images/logo-sponsor-risingstack.jpg" alt=Rising Stack />
+        <a href="http://www.risingstack.com?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank"  data-supporter="Rising Stack">
+          <img src="/assets/images/logo-sponsor-risingstack.jpg" alt="Rising Stack" />
         </a>
       </div>
       
       <div class="supporter supporter-logo col-xs-12 col-sm-4 text-center">
-        <a href="http://velocityconf.com/velocityeu2014?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank">
-          <img src="/assets/images/logo-sponsor-velocity.png" alt=Velocity Conference />
+        <a href="http://velocityconf.com/velocityeu2014?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank"  data-supporter="Velocity Conference">
+          <img src="/assets/images/logo-sponsor-velocity.png" alt="Velocity Conference" />
         </a>
       </div>
       
       <div class="supporter supporter-logo col-xs-12 col-sm-4 text-center">
-        <a href="http://www.mongodb.com?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank">
-          <img src="/assets/images/logo-sponsor-mongodb.png" alt=MongoDB />
+        <a href="http://www.mongodb.com?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank"  data-supporter="MongoDB">
+          <img src="/assets/images/logo-sponsor-mongodb.png" alt="MongoDB" />
         </a>
       </div>
       
       <div class="supporter supporter-logo col-xs-12 col-sm-4 text-center">
-        <a href="http://mediasmart.mobi?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank">
-          <img src="/assets/images/logo-sponsor-mediasmart.jpg" alt=mediasmart />
+        <a href="http://mediasmart.mobi?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank"  data-supporter="mediasmart">
+          <img src="/assets/images/logo-sponsor-mediasmart.jpg" alt="mediasmart" />
         </a>
       </div>
       
       <div class="supporter supporter-logo col-xs-12 col-sm-4 text-center">
-        <a href="https://www.arangodb.org?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank">
-          <img src="/assets/images/logo-sponsor-arangodb.png" alt=mediasmart />
+        <a href="https://www.arangodb.org?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank"  data-supporter="mediasmart">
+          <img src="/assets/images/logo-sponsor-arangodb.png" alt="mediasmart" />
         </a>
       </div>
       
       <div class="supporter supporter-logo col-xs-12 col-sm-4 text-center">
-        <a href="http://www.barcinno.com?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank">
-          <img src="/assets/images/logo-sponsor-barcinno.jpg" alt=barcinno />
+        <a href="http://www.barcinno.com?utm_source=wenode&utm_medium=supporter&utm_campaign=barcelonajs" target="_blank"  data-supporter="barcinno">
+          <img src="/assets/images/logo-sponsor-barcinno.jpg" alt="barcinno" />
         </a>
       </div>
       

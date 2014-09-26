@@ -24,7 +24,7 @@
           <tr class="agenda-row {{class}}">
             <td class="agenda-time">{{time}}</td>
 
-            <td class="agenda-talk" {{#if alltracks}}colspan="2" {{/if}}>
+            <td class="agenda-talk" {{#if alltracks}}colspan="2" {{/if}} width="50%">
               {{#if speaker}}<a href="speaker/{{slugify speaker}}.html">{{/if}}
                 <div class="agenda-title">{{{title}}}</div>
                 <div class="agenda-speaker">{{speaker}}</div>
@@ -33,7 +33,7 @@
             </td>
 
             {{#if alttrack}}
-            <td class="agenda-alttrack" {{#if alttrack.timeslots}}rowspan="{{alttrack.timeslots}}" {{/if}}>
+            <td class="agenda-alttrack" {{#if alttrack.timeslots}}rowspan="{{alttrack.timeslots}}" {{/if}} width="50%">
               {{#if alttrack.speaker}}<a href="speaker/{{slugify alttrack.speaker}}.html">{{/if}}
                 <div class="agenda-title">{{{alttrack.title}}}</div>
                 <div class="agenda-speaker">{{alttrack.speaker}}</div>

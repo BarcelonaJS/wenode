@@ -15,6 +15,12 @@
       "name": "Joyent",
       "logo": "/assets/images/logo-sponsor-joyent.jpg",
       "url": "http://www.joyent.com"
+    }],
+    "option": "sponsor",
+    "list": [{
+      "name": "IBM",
+      "logo": "/assets/images/logo-sponsor-ibm.jpg",
+      "url": "http://www.ibm.com/software/bluemix"
     }]
   }],
   "supporters": [{

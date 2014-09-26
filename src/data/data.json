@@ -2,20 +2,22 @@
   "sponsors": [{
     "option": "synchronous",
     "list": [{
-      "name": "Netcentric Ibérica SLU",
-      "logo": "/assets/images/logo-sponsor-netcentric.jpg",
-      "url": "http://www.netcentric.biz"
-    },{
-      "name": "Rakuten",
-      "logo": "/assets/images/logo-sponsor-rakuten.jpg",
-      "url": "http://www.rakuten.com"
-    }]},{
+        "name": "Netcentric Ibérica SLU",
+        "logo": "/assets/images/logo-sponsor-netcentric.jpg",
+        "url": "http://www.netcentric.biz"
+      },{
+        "name": "Rakuten",
+        "logo": "/assets/images/logo-sponsor-rakuten.jpg",
+        "url": "http://www.rakuten.com"
+      }]
+  },{
     "option": "asynchronous",
     "list": [{
       "name": "Joyent",
       "logo": "/assets/images/logo-sponsor-joyent.jpg",
       "url": "http://www.joyent.com"
-    }],
+    }]
+  },{
     "option": "sponsor",
     "list": [{
       "name": "IBM",

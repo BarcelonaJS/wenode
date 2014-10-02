@@ -30,6 +30,10 @@
     "logo": "/assets/images/logo-sponsor-mwc2x.jpg",
     "url": "http://mobileworldcapital.com"
   }, {
+    "name": "blended.io",
+    "logo": "/assets/images/logo-sponsor-blended.jpg",
+    "url": "http://www.blended.io"
+  }, {
     "name": "JobFluent",
     "logo": "/assets/images/logo-sponsor-jobfluent.jpg",
     "url": "http://www.jobfluent.com"
@@ -61,6 +65,10 @@
     "name": "ArangoDB",
     "logo": "/assets/images/logo-sponsor-arangodb.jpg",
     "url": "https://www.arangodb.org"
+  }, {
+    "name": "Socius Live",
+    "logo": "/assets/images/logo-sponsor-socius.jpg",
+    "url": "http://www.sociuslive.com"
   }, {
     "name": "Wayra",
     "logo": "/assets/images/logo-sponsor-wayra.jpg",

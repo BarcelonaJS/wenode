@@ -88,7 +88,8 @@
 	},
 	{
 	  "time": "17:00h",
-	  "title": "TBA"
+	  "title": "How to keep your promises. JavaScript way",
+		"speaker": "Daria Mayorova"
 	},
 	{
 	  "time": "17:30h",
@@ -105,7 +106,7 @@
 	    "speaker": "Luis Guerrero",
 	    "timeslots": 1
 	  }
-	},	
+	},
 	{
 	  "time": "18:25h",
 	  "title": "IBM Bluemix: the Platform as a Service for Node.js development",
